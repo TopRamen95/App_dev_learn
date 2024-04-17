@@ -42,3 +42,54 @@ Creating pages
 *Scaffold is a class in flutter which provides many widgets or we can say APIs like Drawer, Snack-Bar, Bottom-Navigation-Bar, Floating-Action-Button, App-Bar, etc. 
 it contains header(title) and footer and body
 *to change appbar colour we have to add backgroundColor widget and colour class and then select the colour you want.
+
+Widgets:
+
+Flutter is built around widgets, which are the basic building blocks of UI elements.
+Widgets can be structural (like containers, rows, columns) or stylistic (like text, images, buttons).
+Widgets are arranged in a tree structure, with each widget containing its own subtree of widgets.
+Classes:
+
+Dart, the programming language used for Flutter development, is an object-oriented language.
+Classes are used to define custom data types and encapsulate data and behavior.
+In Flutter, many UI elements are represented as classes, such as MaterialApp, Scaffold, StatelessWidget, StatefulWidget, etc.
+Themes:
+
+Themes in Flutter allow you to define a consistent visual design for your app.
+They include properties like colors, typography, shapes, and more.
+ThemeData class is commonly used to define a theme for an app.
+Routes:
+
+Routes in Flutter define the navigation flow of the app.
+Each screen or page in your app typically corresponds to a route.
+Navigator class is used to manage the stack of routes and navigate between them.
+Routes can be named routes or anonymous routes.
+Methods:
+
+Methods in Flutter are functions associated with classes or objects.
+They define behavior or actions that can be performed on those classes or objects.
+For example, initState() and dispose() are lifecycle methods in StatefulWidget used for initialization and cleanup, respectively.
+Other methods are used for handling user input, updating UI, etc.
+
+* method inside class is function or outside the class its a function.
+
+@override is used to override the default behavior.
+
+If curly braces are not used then its a compulsory parameter.
+
+BuildContext() 
+This follows as tree data structure.
+
+Routes are paths relative to the root of the application requried.
+
+Class is a blueprint and object is created from class
+In class there are 3 types
+1) Many members
+2) Many methods
+3) Many properties
+
+new keyword if applied then itll become object
+function and class are deffered through their wordings
+in class the first letter and mid letter is capitalized but in function everything is smaller.
+
+instead of "/" we can also use initialRoute parameter.
