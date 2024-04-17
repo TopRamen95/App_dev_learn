@@ -41,3 +41,4 @@ Creating pages
 
 *Scaffold is a class in flutter which provides many widgets or we can say APIs like Drawer, Snack-Bar, Bottom-Navigation-Bar, Floating-Action-Button, App-Bar, etc. 
 it contains header(title) and footer and body
+*to change appbar colour we have to add backgroundColor widget and colour class and then select the colour you want.
