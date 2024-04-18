@@ -105,3 +105,15 @@ Use onclick function to use routes
 To tell the router where to redirect use navigation method.
 Navigation method contains many methods.
 Now here if you have only nae then you can use Navigator.pushNamed(context,route) method.
+
+if a variable starts with underscore then its a private access type.
+
+if there is a state change use onChanged method.
+
+To rebuild already present code then you can use set state method.
+
+for animation you have to use AnimatedContainer.
+
+To make a widget clickable you can use two methods
+1) Wrap with gesture detector(doesnt show effects)
+2) InkWell(shows effects)
