@@ -101,3 +101,7 @@ sized box behaves same like container in html
 To create a login form you can use textformfield() method.
 You can decorate as per you want using decoration method and using InputDecorations method.
 
+Use onclick function to use routes 
+To tell the router where to redirect use navigation method.
+Navigation method contains many methods.
+Now here if you have only nae then you can use Navigator.pushNamed(context,route) method.
