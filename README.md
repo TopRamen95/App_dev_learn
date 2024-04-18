@@ -93,3 +93,11 @@ function and class are deffered through their wordings
 in class the first letter and mid letter is capitalized but in function everything is smaller.
 
 instead of "/" we can also use initialRoute parameter.
+
+To add any media like video or photos you have to create a folder in root folder name it as assets and go to pubspec.yaml and near assets add the path of the assets folder with a / beside it 
+
+sized box behaves same like container in html
+
+To create a login form you can use textformfield() method.
+You can decorate as per you want using decoration method and using InputDecorations method.
+

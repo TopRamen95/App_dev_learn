@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/pages/homepage.dart';
 import 'package:myapp/pages/loginpage.dart';
 import 'package:myapp/pages/registerpage.dart';
@@ -18,8 +19,9 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           color: Color.fromARGB(255, 179, 30, 233),
           ),
+          fontFamily: GoogleFonts.lato().fontFamily,
       ),
-      initialRoute:"/home",
+      initialRoute:"/login",
       routes:{
         "/home":(context) => HomePage(),
         "/login":(context) => LoginPage(),
